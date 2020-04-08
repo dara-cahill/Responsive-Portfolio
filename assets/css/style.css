@@ -20,11 +20,16 @@ body {
     border-bottom: 1.5px solid grey;
 }
 
+p {
+    font-size: 15px;
+}
+
 .inner-header {
-    width: 1050px;
+    width: 100%;
     height: 80px;
     display: block;
     margin: 0 auto;
+    margin-left: 40px;
 }
 
 .name {
@@ -41,6 +46,7 @@ body {
     padding: 30px;
     margin-top: 20px;
     float: right;
+    margin-right: 40px;
 }
 
 .link a {
@@ -48,6 +54,7 @@ body {
     padding: 0px 10px;
     color:gray;
     position: relative;
+    float: left;
 }
 
 footer  {
@@ -68,11 +75,7 @@ footer  {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-}
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #83b5a8;
 }
 
 #image {
@@ -90,4 +93,66 @@ hr {
 .message {
     height: 50%;
     width: 70%;
+}
+
+@media screen and (max-width: 980px) {
+    p {
+        font-size: 13px;
+    }
+    #image {
+        height: 280px;
+        width: 220px;
+    }
+
+    .link {
+        font-size: 13px;
+    }
+    .media-img {
+        height: 100%;
+        width: 350px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 11px;
+    }
+    
+    #image {
+        height: 260px;
+        width: 200px;
+    }
+    
+    .link {
+        font-size: 12px;
+    }
+    .media-img {
+        height: 100%
+        width: 320px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    p {
+        font-size: 10px;
+    }
+
+    #image {
+        height: 240px;
+        width: 180px;
+    }
+
+    .link {
+        font-size: 11px;
+    }
+
+    .media-img {
+        height: 100%;
+        width: 300px;
+    }
 }
