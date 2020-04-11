@@ -127,9 +127,6 @@ button:active {
     border: none;
 }
 
-.active-page {
-    color: red;
-}
 
 @media screen and (max-width: 980px) {
     p {
@@ -155,11 +152,12 @@ button:active {
     h1 {
         font-size: 29px;
     }
+
     button {
     padding: 4px 8px;
     font-size: 13px;
     }
-
+}
 
 @media screen and (max-width: 768px) {
     p {
