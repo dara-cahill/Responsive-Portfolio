@@ -111,9 +111,20 @@ button {
   background-color: White;
   border: 1px solid grey;
   color: black;
-  padding: 6px 15px;
+  padding: 5px 10px;
   text-align: center;
   font-size: 15px;
+}
+
+button:hover {
+    transition-duration: 0.2s;
+    background-color: grey;
+    color: white;
+  }
+
+button:active {
+    outline: none;
+    border: none;
 }
 
 @media screen and (max-width: 980px) {
