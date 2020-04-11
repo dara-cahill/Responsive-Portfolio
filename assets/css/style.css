@@ -107,6 +107,15 @@ hr {
     width: 70%;
 }
 
+button {
+  background-color: White;
+  border: 1px solid grey;
+  color: black;
+  padding: 8px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 980px) {
     p {
         font-size: 13px;
