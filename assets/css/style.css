@@ -37,6 +37,17 @@ h1 {
     color: #83b5a8;
 }
 
+h2 {
+    color: white;
+    background-color: #83b5a8;
+    margin-bottom: 20px;
+}
+
+hr {
+    height: 1.5px;
+    background: gray;
+    margin-bottom: 15px;
+}
 
 .name {
     background-color: #83b5a8;
@@ -63,20 +74,15 @@ h1 {
     float: left;
 }
 
-footer  {
-    width: 100%;
-    background-color: grey;
-    bottom: 0;
-    height: 50px;
-    position: fixed;
-    border-top: 8px solid #83b5a8; 
-}
-
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 50px;
+}
+
+.portfolio-div {
+    margin: 20px;
+    text-align: center;
 }
 
 .content-container {
@@ -95,12 +101,6 @@ footer  {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-hr {
-    height: 1.5px;
-    background: gray;
-    margin-bottom: 15px;
 }
 
 .message {
@@ -128,6 +128,14 @@ button:active {
     border: none;
 }
 
+footer  {
+    width: 100%;
+    background-color: grey;
+    bottom: 0;
+    height: 50px;
+    position: fixed;
+    border-top: 8px solid #83b5a8; 
+}
 
 @media screen and (max-width: 980px) {
     p {
@@ -159,6 +167,7 @@ button:active {
     font-size: 13px;
     }
 }
+
 
 @media screen and (max-width: 768px) {
     p {
